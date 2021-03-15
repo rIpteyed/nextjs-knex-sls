@@ -1,0 +1,17 @@
+{
+  "name": "d023grg-ywo4qs",
+  "hash": "1xssg2falZseRBBqtc+Hrenw2l1H0cSgDUgr3bEsbrI=",
+  "description": "API Lambda@Edge for Next CloudFront distribution",
+  "memory": 512,
+  "timeout": 10,
+  "code": "/Users/justinrich/temp/slstest/nextjs/firstnext/nextjs-blog-sls/.serverless_nextjs/api-lambda",
+  "shims": [],
+  "handler": "index.handler",
+  "runtime": "nodejs12.x",
+  "env": {},
+  "role": {
+    "arn": "arn:aws:iam::646250931981:role/d023grg-ir9vit"
+  },
+  "arn": "arn:aws:lambda:us-east-1:646250931981:function:d023grg-ywo4qs",
+  "region": "us-east-1"
+}

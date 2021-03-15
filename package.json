@@ -1,0 +1,37 @@
+{
+  "name": "nextjs-knex-sls",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.863.0",
+    "date-fns": "^2.19.0",
+    "fs": "0.0.1-security",
+    "gray-matter": "^4.0.2",
+    "import-file": "^1.4.0",
+    "knex": "^0.95.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "next": "^10.0.0",
+    "oracledb": "^5.1.0",
+    "pg": "^8.5.1",
+    "pg-native": "^3.0.0",
+    "pg-query-stream": "^4.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "sqlite3": "^5.0.2",
+    "tailwindcss": "^2.0.3",
+    "tedious": "^11.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
