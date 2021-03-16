@@ -1,10 +1,10 @@
 {
   "name": "d023grg-oqhvr0u",
-  "hash": "bIuieK7Ke4oYUnDFX3vFTnokZuwhUQaihbX7s+En/Y8=",
+  "hash": "XGuYrzySQLu92EKrfzvF7w5yi1x+v0UbRRYotHt+a88=",
   "description": "Default Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,
-  "code": "/Users/justinrich/temp/slstest/nextjs/firstnext/nextjs-blog-sls/.serverless_nextjs/default-lambda",
+  "code": "/Users/justinrich/temp/slstest/nextjs/firstnext/nextjs-knex-sls/.serverless_nextjs/default-lambda",
   "shims": [],
   "handler": "index.handler",
   "runtime": "nodejs12.x",

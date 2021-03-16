@@ -1,10 +1,10 @@
 {
   "name": "d023grg-ywo4qs",
-  "hash": "1xssg2falZseRBBqtc+Hrenw2l1H0cSgDUgr3bEsbrI=",
+  "hash": "bA5fNQDQLpeWYmP+ZYMR0D4rDPrORKJlvfvIYUGQH/g=",
   "description": "API Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,
-  "code": "/Users/justinrich/temp/slstest/nextjs/firstnext/nextjs-blog-sls/.serverless_nextjs/api-lambda",
+  "code": "/Users/justinrich/temp/slstest/nextjs/firstnext/nextjs-knex-sls/.serverless_nextjs/api-lambda",
   "shims": [],
   "handler": "index.handler",
   "runtime": "nodejs12.x",

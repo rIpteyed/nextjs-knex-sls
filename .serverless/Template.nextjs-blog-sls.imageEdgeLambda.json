@@ -1,10 +1,10 @@
 {
   "name": "d023grg-rprw0da",
-  "hash": "32aRNfbbL2w2lVVEZMdizwJbDLIaqKJfbsCwJ9N1/Yk=",
+  "hash": "3ew986mbNHNM7hp6YnCEuD28YQKUQnlAT5Yk5A/6uU0=",
   "description": "Image Lambda@Edge for Next CloudFront distribution",
   "memory": 512,
   "timeout": 10,
-  "code": "/Users/justinrich/temp/slstest/nextjs/firstnext/nextjs-blog-sls/.serverless_nextjs/image-lambda",
+  "code": "/Users/justinrich/temp/slstest/nextjs/firstnext/nextjs-knex-sls/.serverless_nextjs/image-lambda",
   "shims": [],
   "handler": "index.handler",
   "runtime": "nodejs12.x",

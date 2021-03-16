@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
     "aws-sdk": "^2.863.0",
     "date-fns": "^2.19.0",
     "fs": "0.0.1-security",
