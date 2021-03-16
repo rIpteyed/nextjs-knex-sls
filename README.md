@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) Learning project to help me get familiar with nextjs, knex.js and refresh my SLS skills.
+##This is a [Next.js](https://nextjs.org/) Learning project to help me get familiar with nextjs, knex.js and refresh my SLS skills.
 
 # Stack
 - Next.js (including Tailwind CSS for UI styling and React Components)
@@ -6,15 +6,7 @@ This is a [Next.js](https://nextjs.org/) Learning project to help me get familia
 - Serverless Framework (Actually I cheated and used the @sls-next/serverless-component to accelerate this project) on AWS
 - RDS PostgreSQL
 
-To run locally:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-##To deploy to AWS:
+#To deploy to AWS:
 
 0. Clone the repository.
 1. Setup your AWS configuration:
