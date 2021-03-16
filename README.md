@@ -6,6 +6,8 @@
 - Serverless Framework (Actually I cheated and used the @sls-next/serverless-component to accelerate this project) on AWS
 - RDS PostgreSQL
 
+![image](https://user-images.githubusercontent.com/3117159/111290134-12996a00-8603-11eb-9076-b1f787653cf6.png)
+
 # To deploy to AWS:
 
 0. Clone the repository.
