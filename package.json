@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "sls",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"

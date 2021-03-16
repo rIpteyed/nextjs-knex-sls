@@ -1,9 +1,10 @@
-This is a [Next.js](https://nextjs.org/) POC project.
+This is a [Next.js](https://nextjs.org/) Learning project to help me get familiar with nextjs, knex.js and refresh my SLS skills.
 
 # Stack
 - Next.js (including Tailwind CSS for UI styling and React Components)
 - Knex.js - ORM
 - Serverless Framework (Actually I cheated and used the @sls-next/serverless-component to accelerate this project) on AWS
+- RDS PostgreSQL
 
 To run locally:
 
@@ -15,12 +16,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ##To deploy to AWS:
 
-1. you'll need to setup your AWS configuration:
+0. Clone the repository.
+1. Setup your AWS configuration:
 ```
 sls config credentials --provider aws --key [key] --secret [secret]
 ``` 
 
-2. Add a serverless.yml file to the root of the project.  Here is the one we're using for this project:
+2. Add a serverless.yml file to the root of the project.  Here is the one I'm using for this project:
 ```
 nextjs-blog-sls:
   component: "@sls-next/serverless-component@1.19.0-alpha.37"
@@ -34,7 +36,11 @@ nextjs-blog-sls:
         DATABASE: [database name]
 ```
 
-3. You'll need to add an RDS PostgreSQL instance and update the DB credentials in the SLS environment variables as above.
+3. Add an RDS PostgreSQL instance and update the DB credentials in the SLS environment variables as above.
+4. Run the Migrations and then the Seeds from inside the knex directory using:
+`npm run migrate`
+`npm run seed`
+5. Now you should have data and you can run the app locally using `npm run dev` or deploy to AWS by running `npm run deploy` or just `sls` in the root.
 
 #API
 You will find 2 endpoints:
